@@ -1,8 +1,8 @@
-num = input("enter intger: ")
+num = int(input("enter intger: "))
 
 sum=0
-for i in num:
-    #print(i)
-    sum= sum +int(i)
+while num!=0:
+    sum += num % 10
+    num = num//10
 
 print("The sum of the digits is ",sum)
