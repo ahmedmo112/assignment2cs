@@ -5,7 +5,6 @@ pow = len(num)
 sum=0
 tmp=0
 for i in num:
-    #print(i)
     sum= sum +int(i)
     tmp = tmp + int(i)**pow
 
