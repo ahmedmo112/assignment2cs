@@ -1,14 +1,7 @@
-m = input("m= ")
-p = input("p= ")
-n = input("n= ")
+arr = [val for val in range(1,11)]
+print(arr)
 
-x=[]
-x.append(m)
-x.append(p)
-x.append(n)
-print(x)
+del arr[1:10-1]
 
-del x[1]
-
-print(x)
+print(arr)
 

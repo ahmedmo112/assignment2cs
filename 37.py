@@ -1,14 +1,14 @@
-m = input("m= ")
-p = input("p= ")
-n = input("n= ")
+size = int(input("enter array size: "))
+A  = [0]* size
+for i in range(size):
+    A[i]= input(f"enter element {i}: ")
+print(A)
+p = int(input("enter index where you want the element to be removed: "))
 
-x=[]
-x.append(m)
-x.append(p)
-x.append(n)
-print(x)
-
-del x[1]
-
-print(x)
+if 0<= p<size:
+    A = A[:p]+A[p+1:]
+    print(A)
+else:
+    print("Error")
+    
 

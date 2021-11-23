@@ -1,12 +1,12 @@
 i = 1
-Factorial = 1
+fact = 1
 x = int(input("x="))
 if x > 0:
     while i <= x:
-        Factorial = Factorial * i
-        i = i + 1
+        fact = fact * i
+        i += 1
 
-    print(f" The Factorial of the number is {Factorial} ")
+    print(" The factorial of the number is ",fact)
 
 else:
-    print("invalid input")
+    print("less than 0")
