@@ -33,4 +33,4 @@ if h1 >= h2:
 else:
     print("wrong input")
 
-print(f"The difference between two times is {h3}:{m3}:{s3} ")
+print(f"The difference {h3}:{m3}:{s3}")
